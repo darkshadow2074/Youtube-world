@@ -1,0 +1,110 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+:root {
+  --primary: #dc2626;
+  --gray: #f3f4f6;
+  --light-blue: #dbeafe;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  /* margin: 0px; */
+  background: #fee2e2;
+}
+
+/** nav **/
+
+.navigation {
+  background-color: var(--primary);
+  padding: 2rem 0rem;
+  color: white;
+  border-bottom-left-radius: 2.5rem;
+  border-bottom-right-radius: 2.5rem;
+}
+
+.navigation .nav-brand {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center-image {
+  width: 500px;
+  margin: 2rem auto;
+}
+
+.center-image img {
+  max-width: 100%;
+}
+.about,
+.mission,
+.working {
+  max-width: 800px;
+  background-color: whitesmoke;
+  padding: 1rem;
+  margin: 1.4rem;
+}
+.about h2 {
+  font-size: 30px;
+  padding: 1rem;
+  text-align: center;
+}
+.mission h2 {
+  font-size: 30px;
+  padding: 1rem;
+  text-align: center;
+}
+.working h2 {
+  font-size: 30px;
+  padding: 1rem;
+  text-align: center;
+}
+.container {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.container-fluid {
+  margin: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  max-width: 600px;
+}
+
+.about p {
+  font-size: 20px;
+  text-align: justify;
+  padding: 3rem;
+}
+.mission p {
+  font-size: 20px;
+  text-align: justify;
+  padding: 3rem;
+}
+.buttons-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+.buttons {
+  padding: 1rem;
+  border-radius: 15px;
+  outline: none;
+  cursor: pointer;
+  color: whitesmoke;
+  border: none;
+  background-color: var(--primary);
+  font-size: 14px;
+  margin: 0.5rem;
+}
